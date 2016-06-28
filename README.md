@@ -1,8 +1,14 @@
 # cloud-computing-project
 
-Feature based tweets sentiment analysis on movies
+This is a feature based movie rating system.
 
-This repository contains all source code for Feature Based Tweets Sentiment Analysis Project.
+Natural Language Toolkit (NLTK) is used to apply sentiment analysis on public tweets about movies and generate score for each features.
+
+We built MapReduce solution on Spark as well as single-threaded solution. Two implementations are compared over different datasets. MapReduce implementation outperforms single-threaded for datasets larger than 60,000 tweets.
+
+Radar chart are generated for visualizing moving ratings... and also for fun.
+
+Please refer to [project report](https://github.com/cctv2206/cloud-computing-project/blob/master/Final%20Report.pdf) or [demo slides](https://github.com/cctv2206/cloud-computing-project/blob/master/Final%20Presentation%20Slides.pdf) for more information.
 
 Have fun.
 
