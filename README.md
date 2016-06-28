@@ -1,11 +1,12 @@
 # cloud-computing-project
+
 Feature based tweets sentiment analysis on movies
 
 This repository contains all source code for Feature Based Tweets Sentiment Analysis Project.
 
-==================
+Have fun.
 
-INSTALLATION
+## INSTALLATION
 
 Please install TextBlob:
 https://textblob.readthedocs.org/en/dev/install.html
@@ -20,9 +21,9 @@ http://matplotlib.org/faq/installing_faq.html#install-osx-binaries
 easy installation: 
 pip install matplotlib
 
-==================
 
-EXAMPLE
+
+## EXAMPLE
 
 You can run a simple example without database.
 
@@ -42,9 +43,9 @@ You could also run single_thread.py for single thread implementation.
 
 enjoy!
 
-==================
 
-DATA COLLECTION
+
+## DATA COLLECTION
 
 First, you need to have a mysql database, phpmyadmin(GUI database manager), the php environment and an apache server. You can simply install xampp - a integrated development environment. Or you could install and configure them separately. 
 
@@ -56,4 +57,4 @@ Run saveTweets.py to save all tweets to a txt file
 
 The txt file is the input for SentimentOneMR.py or single_thread.py.
 
-================
+
